@@ -12,12 +12,12 @@ import pyautogui
 import requests
 from bs4 import BeautifulSoup
 import openai
-openai.api_key = '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' 
+
 import openai 
 import gen_ai
 import time
 from llama_index.llms.llama_api import LlamaAPI
-api_key = "LL-njIR0xcZUjVmfA5m7BPEO9SUBRaxcysf2DQzJIeuvEGFdynsrtjqRcE5MmpqoHX4"
+api_key=1
 llm = LlamaAPI(api_key=api_key)
 
 class Chatbot:
